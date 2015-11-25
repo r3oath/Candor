@@ -1,0 +1,21 @@
+{
+  "name": "candor",
+  "version": "0.0.1",
+  "description": "A new way to write HTML, elegantly.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "HTML",
+    "Preprocessor"
+  ],
+  "author": "Tristan Strathearn <r3oath@protonmail.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.3.4"
+  }
+}
