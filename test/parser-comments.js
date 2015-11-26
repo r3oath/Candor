@@ -1,5 +1,6 @@
 var assert = require('assert');
 var parser = require('../lib/candor.js');
+var helper = require('./test-helpers.js');
 
 describe('Parser', function() {
     describe('Comments', function() {
@@ -8,7 +9,11 @@ describe('Parser', function() {
                 '? The app title\n' +
                 'title = \'Hello!\''
             );
-            var expected = '<title>Hello!</title>\n';
+            var expected =
+                helper.html5(
+                    '<title>Hello!</title>\n'
+                )
+            ;
 
             assert.equal(actual, expected);
         });
