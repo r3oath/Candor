@@ -22,6 +22,8 @@ body
 Transforms into the following:
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Hello World</title>
 </head>
@@ -35,6 +37,7 @@ Transforms into the following:
         </div>
     </div>
 </body>
+</html>
 ```
 
 # Roadmap
@@ -42,6 +45,7 @@ Transforms into the following:
 - [x] Build a parser that ingests the new syntax and spits out the expected HTML.
 - [] Allow for the generation of HTML5 files and partials.
 - [] Allow for user defined indent sizes (Currently only supports 4 spaces to represent tabs)
+- [] Allow for better customization of rendered HTML5.
 - [] Support for inline tags.
 - [] Support for Unicode (Currently limited to ASCII).
 - [] Release version 1.0.0.
