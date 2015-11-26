@@ -1,4 +1,5 @@
 # Candor
+[![Build Status](https://travis-ci.org/r3oath/Candor.svg?branch=master)](https://travis-ci.org/r3oath/Candor)
 A new way to write HTML, elegantly.
 
 # The Mission
