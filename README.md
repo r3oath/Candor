@@ -42,6 +42,21 @@ Transforms into the following:
 </html>
 ```
 
+# Installation
+
+In your project directory, run the following command.
+
+```bash
+npm install candor --save
+```
+
+then simply call the following where necessary 
+
+```javascript
+var candor = require('candor');
+var html = candor.parse(...) // Parse the candor syntax here.
+```
+
 # Usage
 At the moment the parser is available under `x.parse(...)`. There will be gulp and Laravel elixir plugins soon, which will make development with Candor much easier. For the time being though, if you'd like to play around the syntax rules are as follows:
 
@@ -50,7 +65,7 @@ At the moment the parser is available under `x.parse(...)`. There will be gulp a
 name #id `classes` key'value' +mutator = 'Inline content'
 ```
 
-To generate an HTML tag, the only required section above is `name`. To give the tag an id, add `#id` where `id` is, well, the css id. Classes can be added inside a class block denoted between two backtick characters as shown above. Tag properties are added as `key'value'`. Mutators, which are really just properties without values, such as `disabled` are denoted as `+disabled`. Inline content is again purely optional, but if needed, is simply specified as ` = 'content'` at the end of a tag. If this section is present, the opening and closing tags generated will be placed onto a single line, instead of separate lines. For a complete example, the following Candor syntax:
+To generate an HTML tag, the only required section above is `name`. To give the tag an id, add `#id` where `id` is, well, the css id. Classes can be added inside a class block denoted between two back-tick characters as shown above. Tag properties are added as `key'value'`. Mutators, which are really just properties without values, such as `disabled` are denoted as `+disabled`. Inline content is again purely optional, but if needed, is simply specified as ` = 'content'` at the end of a tag. If this section is present, the opening and closing tags generated will be placed onto a single line, instead of separate lines. For a complete example, the following Candor syntax:
 
 ```
 div #app `app app__dark` @click.stop'toggle()' +disabled = 'Uhmmm?'
