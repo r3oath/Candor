@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "prepublish": "npm test",
     "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
@@ -14,7 +15,12 @@
     "Preprocessor"
   ],
   "author": "Tristan Strathearn <r3oath@protonmail.ch>",
+  "homepage": "https://github.com/r3oath/Candor",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r3oath/Candor"
+  },
   "dependencies": {
     "mocha": "^2.3.4"
   }
