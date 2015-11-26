@@ -4,7 +4,7 @@ var Helpers = module.exports = {
             '<!DOCTYPE html>\n' +
             '<html lang="en">\n' +
                 content +
-            '</html>'
+            '</html>\n'
         );
     },
 };
