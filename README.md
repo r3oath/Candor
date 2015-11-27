@@ -1,7 +1,7 @@
 # Candor
 A new way to write HTML, elegantly.
 
-[![Build Status](https://travis-ci.org/r3oath/Candor.svg?branch=master)](https://travis-ci.org/r3oath/Candor)
+[![Build Status](https://travis-ci.org/r3oath/candor.svg?branch=master)](https://travis-ci.org/r3oath/candor)
 
 # The Mission
 There are many preprocessors that make web development easier, such as LESS, SASS, Stylus, CoffeeScript etc. But there isn't much out there that makes writing HTML any easier, at least not in a elegant, generic and non-restrictive form that will work for most project requirements, regardless of framework... well, to an extent.
