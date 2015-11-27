@@ -39,10 +39,13 @@ Transforms into the following:
 
 # Installation
 
+#### Laravel Elixir
 If you use Laravel like I do, you'll probably want the Elixir plugin, get it here [laravel-elixir-candor](https://www.npmjs.com/package/laravel-elixir-candor).
 
+#### Gulp
 If you like using Gulp, get the gulp plugin here [gulp-candor](https://www.npmjs.com/package/gulp-candor)
 
+#### Manually
 Otherwise, in your project directory, run the following command
 
 ```bash
