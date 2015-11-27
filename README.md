@@ -14,9 +14,9 @@ head
     title = 'Hello World'
 
 body
-    div #app `container`
-        div `row`
-            div `col-xs-12 text-center`
+    div #'app' .'container'
+        div .'row'
+            div .'col-xs-12 text-center'
                 img src'images/sick.png'
                 p = 'This is pretty sick!'
 ```
@@ -62,13 +62,13 @@ At the moment the parser is available under `x.parse(...)`. There will be gulp a
 
 #### HTML Tags
 ```
-name #id `classes` key'value' +mutator = 'Inline content'
+name #'id' .'classes' key'value' +mutator = 'Inline content'
 ```
 
-To generate an HTML tag, the only required section above is `name`. To give the tag an id, add `#id` where `id` is, well, the css id. Classes can be added inside a class block denoted between two back-tick characters as shown above. Tag properties are added as `key'value'`. Mutators, which are really just properties without values, such as `disabled` are denoted as `+disabled`. Inline content is again purely optional, but if needed, is simply specified as ` = 'content'` at the end of a tag. If this section is present, the opening and closing tags generated will be placed onto a single line, instead of separate lines. For a complete example, the following Candor syntax:
+To generate an HTML tag, the only required section above is `name`. To give the tag an id, add `#'id'` where `id` is, well, the css id. Classes can be added inside a class block in the same way denoted with a period as shown above. Tag properties are added as `key'value'`. Mutators, which are really just properties without values, such as `disabled` are denoted as `+disabled`. Inline content is again purely optional, but if needed, is simply specified as ` = 'content'` at the end of a tag. If this section is present, the opening and closing tags generated will be placed onto a single line, instead of separate lines. For a complete example, the following Candor syntax:
 
 ```
-div #app `app app__dark` @click.stop'toggle()' +disabled = 'Uhmmm?'
+div #'app' .'app app__dark' @click.stop'toggle()' +disabled = 'Uhmmm?'
 ```
 
 will produce the rendered HTML shown below:
@@ -90,7 +90,7 @@ script type'text/javascript'
     -- alert('hello world!');
 ```
 
-If you require some non-Candor generated HTML, such as some JavaScript, PHP etc code, simply prepend the code with `--` and it will be rendered as is, as raw content. The above would produce:
+If you require some non-Candor generated HTML, such as some JavaScript, PHP etc code, simply prepend the code with `--` and it will be rendered as is. The above would produce:
 
 ```html
 <script type="text/javascript">
@@ -104,7 +104,7 @@ p
     'This is a paragraph.'
 ```
 
-HTML content, aka the content that goes inside of a tag, is simply placed within single quotes. The content is not processed in any way, and currently only supports standard ASCII characters (Unicode support hopefully coming very soon!). The above example would produce:
+HTML content, aka the content that goes inside of a tag, is simply placed within single quotes. The above example would produce:
 
 ```html
 <p>
@@ -119,6 +119,6 @@ HTML content, aka the content that goes inside of a tag, is simply placed within
 - [ ] Allow for user defined indent sizes (Currently only supports 4 spaces to represent tabs)
 - [ ] Allow for better customization of rendered HTML5.
 - [ ] Support for inline tags.
-- [ ] Support for Unicode (Currently limited to ASCII).
+- [x] Support for Unicode (Currently limited to ASCII).
 - [ ] Create a gulp plugin. 
 - [ ] Create a Laravel elixir plugin.
