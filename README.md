@@ -39,7 +39,11 @@ Transforms into the following:
 
 # Installation
 
-In your project directory, run the following command.
+If you use Laravel like I do, you'll probably want the Elixir plugin, get it here [laravel-elixir-candor](https://www.npmjs.com/package/laravel-elixir-candor).
+
+If you like using Gulp, get the gulp plugin here [gulp-candor](https://www.npmjs.com/package/gulp-candor)
+
+Otherwise, in your project directory, run the following command
 
 ```bash
 npm install candor --save
@@ -133,5 +137,5 @@ div = 'Some partial content...'
 - [ ] Allow for better customization of rendered HTML5.
 - [ ] Support for inline tags.
 - [x] Support for Unicode (Currently limited to ASCII).
-- [ ] Create a gulp plugin.
-- [ ] Create a Laravel elixir plugin.
+- [x] Create a gulp plugin. [gulp-candor](https://www.npmjs.com/package/gulp-candor)
+- [x] Create a Laravel elixir plugin. [laravel-elixir-candor](https://www.npmjs.com/package/laravel-elixir-candor)
