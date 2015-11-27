@@ -117,7 +117,7 @@ HTML content, aka the content that goes inside of a tag, is simply placed within
 # Roadmap
 - [x] Design the syntax.
 - [x] Build a parser/generator.
-- [ ] Allow for the generation of partials.
+- [x] Allow for the generation of partials.
 - [ ] Allow for user defined indent sizes.
 - [ ] Allow for better customization of rendered HTML5.
 - [ ] Support for inline tags.
