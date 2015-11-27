@@ -10,9 +10,9 @@ describe('Parser', function() {
                 '    title = \'Hello World\'\n' +
                 '    link rel\'stylesheet\' type\'text/css\' href\'foo.bar/app.css\'\n' +
                 'body\n' +
-                '    div #app `container`\n' +
-                '        div `row`\n' +
-                '            div `col-xs-12`\n' +
+                '    div #\'app\' .\'container\'\n' +
+                '        div .\'row\'\n' +
+                '            div .\'col-xs-12\'\n' +
                 '                p @click.stop\'toggleTitle()\' = \'Welcome!\'\n'
             );
             var expected =
