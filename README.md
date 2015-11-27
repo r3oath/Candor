@@ -114,6 +114,17 @@ HTML content, aka the content that goes inside of a tag, is simply placed within
 </div>
 ```
 
+#### Partials
+If you don't want candor to automatically add the HTML5 headers to the generated document, simply add `!partial` to the beginning of the document.
+
+Eg:
+
+```
+!partial
+
+div = 'Some partial content...'
+```
+
 # Roadmap
 - [x] Design the syntax.
 - [x] Build a parser/generator.
