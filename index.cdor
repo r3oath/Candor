@@ -13,8 +13,8 @@ body
 
         p
             span .'code-green' = 'div'
-            span .'code-pink'  = '#\'header\''
-            span .'code-blue'  = '.\'app-header\''
+            span .'code-pink' = '#\'header\''
+            span .'code-blue' = '.\'app-header\''
             span .'code-black' = '= \'Welcome!\''
 
         p .'code-grey' = '<div id=”header” class=”app-header”>Welcome!</div>'
