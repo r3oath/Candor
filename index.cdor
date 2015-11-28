@@ -17,4 +17,4 @@ body
             span .'code-blue' = '.\'app-header\''
             span .'code-black' = '= \'Welcome!\''
 
-        p .'code-grey' = '<div id=”header” class=”app-header”>Welcome!</div>'
+        p .'code-grey' = '<div id="header" class="app-header">Welcome!</div>'
