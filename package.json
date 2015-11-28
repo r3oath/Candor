@@ -1,27 +1,7 @@
 {
-  "name": "candor",
-  "version": "0.1.4",
-  "description": "A new way to write HTML, elegantly.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "prepublish": "npm test",
-    "test": "./node_modules/mocha/bin/mocha"
-  },
-  "keywords": [
-    "HTML",
-    "Preprocessor"
-  ],
-  "author": "Tristan Strathearn <r3oath@protonmail.ch>",
-  "homepage": "https://github.com/r3oath/Candor",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/r3oath/Candor"
-  },
   "dependencies": {
-    "mocha": "^2.3.4"
+    "gulp": "^3.9.0",
+    "gulp-candor": "0.0.3",
+    "gulp-stylus": "^2.1.0"
   }
 }

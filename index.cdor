@@ -1,0 +1,20 @@
+head
+    title = 'Candor — A new way to write HTML, elegantly'
+    link rel'stylesheet' type'text/css' src'app.css'
+
+body
+    div .'centerable'
+        img .'icon' src'icon.svg'
+
+        p .'header' = 'CANDOR'
+        p .'slogan' = 'A new way to write HTML, elegantly.'
+
+        img .'arrow' src'arrow.svg'
+
+        p
+            span .'code-green' = 'div'
+            span .'code-pink'  = '#\'header\''
+            span .'code-blue'  = '.\'app-header\''
+            span .'code-black' = '= \'Welcome!\''
+
+        p .'code-grey' = '<div id=”header” class=”app-header”>Welcome!</div>'
