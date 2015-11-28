@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400|Fira+Mono");
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f3f9fb;
+  color: #263238;
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.centerable {
+  text-align: center;
+}
+.header {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 0px;
+  padding: 0px;
+}
+.slogan {
+  margin: 0px;
+  padding: 0px;
+}
+img.icon {
+  max-height: 3.5em;
+}
+img.arrow {
+  max-height: 1em;
+  margin: 1rem 0rem;
+  margin-top: 1.4rem;
+}
+.code {
+  font-family: 'Fira Mono';
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 0.4rem;
+  padding: 0px;
+}
+.code-grey {
+  color: #c7c7c7;
+}
+.code-green {
+  color: #34e82b;
+}
+.code-pink {
+  color: #ed1571;
+}
+.code-blue {
+  color: #15bded;
+}
+.code-black {
+  color: #263238;
+}
+.buttons {
+  margin-top: 3rem;
+}
+a.btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #c7c7c7;
+  border-radius: 10em;
+  border: 1px solid #c7c7c7;
+  padding: 0.5em 1.5em;
+  transition: all 0.1s ease;
+}
+a.btn:hover,
+a.btn:focus {
+  color: #263238;
+}

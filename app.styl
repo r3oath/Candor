@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400|Fira+Mono")
+
+color_bg = #f3f9fb
+color_text = #263238
+color_green = #34e82b
+color_pink = #ed1571
+color_blue = #15bded
+color_grey = #c7c7c7
+
+*
+    box-sizing border-box
+
+html
+    height 100%
+    margin 0px
+    padding 0px
+
+body
+    background-color color_bg
+    color color_text
+    font-size 100%
+    font-family 'Raleway', sans-serif
+    font-weight 300
+    height 100%
+    display flex
+    justify-content center
+    align-items center
+    margin 0px
+    padding 0px
+
+.centerable
+    text-align center
+
+.header
+    font-weight 400
+    font-size 2em
+    margin 0px
+    padding 0px
+
+.slogan
+    margin 0px
+    padding 0px
+
+img.icon
+    max-height 3.5em
+
+img.arrow
+    max-height 1em
+    margin 1rem 0rem
+    margin-top 1.4rem
+
+.code
+    font-family 'Fira Mono'
+    font-weight 400
+    margin 0px
+    margin-top 0.4rem
+    padding 0px
+
+.code-grey
+    color color_grey
+
+.code-green
+    color color_green
+
+.code-pink
+    color color_pink
+
+.code-blue
+    color color_blue
+
+.code-black
+    color color_text
+
+.buttons
+    margin-top 3rem
+
+a.btn
+    font-family 'Raleway', sans-serif
+    font-weight 300
+    text-decoration none
+    color color_grey
+    border-radius 10em
+    border 1px solid color_grey
+    padding 0.5em 1.5em
+    transition all .1s ease
+
+    &:hover, &:focus
+        color color_text
