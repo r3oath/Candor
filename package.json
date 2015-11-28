@@ -1,6 +1,6 @@
 {
   "name": "candor",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A new way to write HTML, elegantly.",
   "main": "index.js",
   "directories": {
