@@ -26,4 +26,4 @@ body
 
         p .'buttons'
             a .'btn' href'https://github.com/r3oath/candor' = 'Get Started!'
-            a .'btn' href'#' = 'Inspect this page.'
+            a .'btn' href'https://github.com/r3oath/candor/blob/gh-pages/index.cdor' = 'Inspect this page.'
